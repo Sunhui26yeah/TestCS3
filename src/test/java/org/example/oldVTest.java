@@ -49,6 +49,6 @@ public class oldVTest {
     @Test
     public void testSnippet_XPositive_YEquals20_ReturnsNegtive1000() {
         // Case when x == 0 should return 0 because x^3 = 0
-        assertEquals(-1000.0, oldV.snippet(2, 10), 0.001);
+        assertEquals(-1000.0, oldV.snippet(3, 20), 0.001);
     }
 }
